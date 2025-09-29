@@ -1,6 +1,7 @@
+from get_float import get_float
 from get_int import get_int
 if __name__ == '__main__':
-    x = get_int("x: ")
+    x = get_float("x: ")
     y = get_int("y: ")
-    z = x + y
+    z = x**y
     print(z)
